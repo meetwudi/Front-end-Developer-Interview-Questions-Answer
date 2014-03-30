@@ -1,0 +1,3 @@
+## CSS Questions
+**Describe what a "reset" CSS file does and how it's useful**  
+Reset CSS的目标是通过修正浏览器的某些__默认样式__，让你的代码在不同浏览器上的表现更加一致。比如在一个浏览器下的默认段落行高（`line-height`）和另外一个浏览器的默认段落行高会有不一致，而通过Reset CSS可以将他们归为一致。又比如，有些浏览器里面用`left-margin`来设置`ol`元素的默认的左边距（这里就是左外边距），有些浏览器却是用`left-padding`来设置的（这里就是左内边距），Reset CSS同样可以让他们更一致，比如让它们统一使用左外边距。你可以在[这篇文章](http://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/)里面了解更多。
