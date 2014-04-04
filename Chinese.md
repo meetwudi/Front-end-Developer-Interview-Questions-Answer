@@ -12,4 +12,6 @@ CommonJS是模块化JS的规范，AMD是其拓展。
 **What's a hashtable?**  
 即Key-Value对，一个Key对应一个Value。JS中一般将对象当做hashtable使用，因为他们同样是KV结构。但是JS中的对象只支持字符串和数字为Key。  
 **What's the difference between a variable that is: `null`, `undefined` or `undeclared`?**
-`undeclared`是未声明（这东西不常用），`undefined`是未赋值的，`null`是已经赋值的空对象。
+`undeclared`是未声明（这东西不常用），`undefined`是未赋值的，`null`是已经赋值的空对象。  
+**Difference between document load event and document ready event**  
+document.ready是在所有html和DOM加载完毕的时候触发的，不包括图像等外部资源的加载。而window.onload则是在所有外部资源也加载完毕的时候出发的。所以顺序是`document.ready -> window.onload`。
